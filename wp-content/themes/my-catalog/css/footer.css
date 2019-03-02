@@ -1,0 +1,13 @@
+.site-footer{
+    background-color: black;
+    padding: 50px 20px;
+}
+
+#menu-footer{
+list-style: none;
+}
+
+#menu-footer a{
+color: white;
+text-decoration: none;
+}

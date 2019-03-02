@@ -1,0 +1,56 @@
+
+.site-header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+}
+
+.site-header a{
+    color: white;
+    display: auto;
+    cursor: pointer;
+    padding: 0 30px;
+}
+
+#site-navigation{
+    float: none;
+    width: auto;
+    display: initial;
+    height: 100%;
+}
+
+.menu-menu-1-container, .menu, .menu li {
+    height: 100%;
+}
+
+.main-navigation .menu{
+    display: flex;
+}
+
+.main-navigation .menu li{
+    float: none;
+    align-items: center;
+}
+
+.main-navigation .menu>li>a{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main-navigation .menu li .sub-menu{
+float: none;
+left: auto;
+background-color: black;
+display: none;
+}
+
+.main-navigation .menu li:hover > .sub-menu{
+    display: block;
+}
+
+.main-navigation .menu li .sub-menu a{
+line-height: 2.5;
+width: auto;
+}
