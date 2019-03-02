@@ -1,6 +1,13 @@
 .site-footer{
     background-color: black;
     padding: 50px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-footer::before,  .site-footer::after{
+    content: none;
 }
 
 #menu-footer{

@@ -25,7 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'my-catalog' ); ?></a>
 
 	<header id="masthead" class="site-header">
-
+<?php the_custom_logo(); ?>
 		<nav id="site-navigation" class="main-navigation">
 			<?php
 			wp_nav_menu( array(
